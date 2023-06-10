@@ -10,7 +10,7 @@ Three models were trained in total.
 With some models, the prediction would come out to be negative which needed correction.
 
 ### What was the top ranked model that performed?
-`Added Features Model (added_features)` was my `top model` submission which scored **0.44798 (on test dataset)** on **Kaggle**. This model was developed using EDA and feature engineering, without hyperparameter optimization. This model performed the best on the unseen test dataset.Selection was based on performance in Kaggle (test data) scores.
+`add_features Model` was my `top model` submission which scored **0.44798 (on test dataset)** on **Kaggle**. This model was developed using EDA and feature engineering, without hyperparameter optimization. This model performed the best on the unseen test dataset.Selection was based on performance in Kaggle (test data) scores.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
