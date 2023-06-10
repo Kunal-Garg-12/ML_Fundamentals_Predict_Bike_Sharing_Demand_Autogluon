@@ -10,7 +10,7 @@ Three models were trained in total.
 With some models, the prediction would come out to be negative which needed correction.
 
 ### What was the top ranked model that performed?
-`Added Features Model` was my top model submission which scored **0.44798 (on test dataset)** on **Kaggle**. This model was developed using EDA and feature engineering, without hyperparameter optimization. This model performed the best on the unseen test dataset.Selection was based on performance in Kaggle (test data) scores.
+`Added Features Model` was my `top model` submission which scored **0.44798 (on test dataset)** on **Kaggle**. This model was developed using EDA and feature engineering, without hyperparameter optimization. This model performed the best on the unseen test dataset.Selection was based on performance in Kaggle (test data) scores.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
@@ -32,6 +32,10 @@ If I were given more time, I think I would like to further understand the given 
 |initial|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|1.79358|
 |add_features|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|0.44434|
 |hpo|Tree-Based Models: (GBM, XT, XGB & RF)|KNN|"presets: 'optimize_for_deployment"|0.55036|
+
+### Create a line plot showing the top model score for the three (or more) training runs during the project.
+
+![model_train_score.png](./model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
